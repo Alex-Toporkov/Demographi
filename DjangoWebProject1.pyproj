@@ -90,11 +90,15 @@
     <Content Include="frontend\src\setupTests.js" />
     <Content Include="frontend\src\styles.css" />
     <Content Include="media\products\images\1.jpg" />
+    <Content Include="media\products\images\1_GA0zOU4.jpg" />
     <Content Include="media\products\images\1_s.jpg" />
     <Content Include="media\products\images\1_s_6xmtUmt.jpg" />
+    <Content Include="media\products\images\1_yxWMq2H.jpg" />
     <Content Include="media\products\images\2.jpg" />
+    <Content Include="media\products\images\2_MMzwoE8.jpg" />
     <Content Include="media\products\images\2_s.jpg" />
     <Content Include="media\products\images\2_s_d8K3BBf.jpg" />
+    <Content Include="media\products\images\2_WhIfasf.jpg" />
     <Content Include="media\products\images\3.jpg" />
     <Content Include="media\products\images\3_s.jpg" />
     <Content Include="media\products\images\3_s_gIzRAcP.jpg" />
