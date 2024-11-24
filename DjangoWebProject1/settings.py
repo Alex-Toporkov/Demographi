@@ -26,14 +26,15 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 SECRET_KEY = 'fb527445-76e1-4ee7-b0cb-4aa5d9b725e9'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
   'localhost',
   '127.0.0.1',
   'http://localhost:3001/',
   'http://127.0.0.1:8000/api/products/type/2',
-  'http://localhost:3003']  # Добавьте разрешенные хосты
+  'http://localhost:3003',  
+  'https://diamond-gemini.ru/']
 
 # Application references
 INSTALLED_APPS = [
