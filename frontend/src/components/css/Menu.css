@@ -1,0 +1,58 @@
+/* Menu.css */
+.menu {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 10px;
+}
+
+.menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Горизонтально основное меню */
+}
+
+.menu-item {
+    position: relative; /* Для корректной работы абсолютного позиционирования подменю */
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.submenu {
+    display: none; /* Скрываем подменю по умолчанию */
+    position: absolute;
+    top: 105%; /* Сдвигаем подменю вниз */
+    left: 0;
+    background-color: black; /* Цвет фона подменю */
+    padding: 0; /* Убираем отступы вокруг подменю */
+    margin: 0; /* Убираем внешние отступы */
+    list-style-type: none; /* Убираем маркеры списка */
+    flex-direction: column;
+    color: white;
+}
+
+.menu-item:hover .submenu {
+    display: block; /* Показываем подменю при наведении */
+}
+
+.submenu-item {
+    padding: 10px 20px;
+    color: white;
+    white-space: nowrap; /* Запрещаем обтекание текста */
+}
+
+    .submenu-item a {
+        color: white; /* Устанавливаем цвет текста ссылок в подменю белым */
+        text-decoration: none; /* Убираем подчеркивание ссылки */
+    }
+
+        .submenu-item a:hover {
+            color: #ccc; /* Эффект наведения на ссылки в подменю */
+            background-color: #333; /* Добавляем фон при наведении */
+        }
+
+    .submenu-item:hover {
+        background-color: #333; /* Эффект наведения для подпунктов */
+    }

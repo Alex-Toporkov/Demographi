@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    justify-content: space-between; /* Распределяем элементы по краям */
+    align-items: center; /* Центрируем элементы по вертикали */
+    background-color: #f8f9fa; /* Цвет фона */
+    padding: 20px; /* Отступы */
+}
+
+.logo img {
+    max-width: 150px; /* Максимальная ширина логотипа */
+    height: auto; /* Автоматическая высота */
+}
+
+.store-info {
+    flex-grow: 1; /* Позволяем этому элементу занимать доступное пространство */
+    text-align: center; /* Центрируем текст */
+}
+
+.store-name {
+    font-family: 'Roboto', sans-serif; /* Используем шрифт Roboto */
+    font-size: 2rem; /* Размер шрифта */
+    font-weight: 700; /* Жирный шрифт */
+    color: #333; /* Цвет текста */
+    margin: 0; /* Убираем отступы */
+}
+
+.store-description {
+    font-family: 'Roboto', sans-serif; /* Используем шрифт Roboto */
+    font-size: 1rem; /* Размер шрифта для описания */
+    color: #666; /* Цвет текста */
+    margin: 5px 0 0; /* Отступы сверху и снизу */
+}
+
+.phone {
+    font-family: 'Roboto', sans-serif; /* Используем шрифт Roboto */
+    font-size: 1.2rem; /* Размер шрифта */
+    color: #666; /* Цвет текста */
+}
+
+.owner-name {
+    font-family: 'Roboto', sans-serif; /* Используем шрифт Roboto */
+    font-size: 1.2rem; /* Размер шрифта */
+    color: #333; /* Цвет текста */
+    margin-top: 5px; /* Отступ сверху */
+    text-align: center; /* Центрируем текст */
+}
